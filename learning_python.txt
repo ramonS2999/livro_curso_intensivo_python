@@ -1,0 +1,10 @@
+Em Python podemos criar objetos
+Em Python podemos importar modolos
+Em Python podemos manipular dados
+Em Python podemos criar lista
+Em Python podemos criar tuplas
+Em Python podemos criar dicionarios
+Em Python podemos usar loop for
+Em Python podemos usar loop while
+Em Python podemos acessar arquivos .txt
+Em Python podemos criar jogos
