@@ -7,10 +7,12 @@ print('''
             vez após fazer um upgrade da bateria. Você deverá ver um aumento na
             distância que o carro é capaz de percorrer.
 ''')
-
+# --- Importando classe ElectricCar ---
 from electric_car import ElectricCar
 
+# --- criando a a instância my_tesla ---
 my_tesla = ElectricCar('tesla', 'model s', 2016)
+
 print(my_tesla.get_descriptive_name())
 my_tesla.fill_gas_tank()
 my_tesla.battery.describe_battery()

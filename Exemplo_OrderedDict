@@ -1,0 +1,16 @@
+# --- Começamos importando a classe OrderedDict do módulo collections. ---
+from collections import OrderedDict
+
+# --- Criamos uma instância da classe OrderedDict e a armazenamos em favorite_languages. ---
+favorite_languages = OrderedDict()
+
+# --- Adicionamos cada nome e linguagem em favorite_languages, um de cada vez. ---
+favorite_languages['jen'] = 'python'
+favorite_languages['sarah'] = 'c'
+favorite_languages['edward'] = 'ruby'
+favorite_languages['phil'] = 'python'
+
+# --- Percorremos favorite_languages com um laço ---
+for name, language in favorite_languages.items():
+    # --- sempre teremos as respostas na ordem em que os itens foram adicionados. ---
+    print(name.title() + "'s favorite language is " + language.title() + ".")
