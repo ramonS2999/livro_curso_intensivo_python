@@ -13,4 +13,4 @@ favorite_languages['phil'] = 'python'
 # --- Percorremos favorite_languages com um laço ---
 for name, language in favorite_languages.items():
     # --- sempre teremos as respostas na ordem em que os itens foram adicionados. ---
-    print(name.title() + "'s favorite language is " + language.title() + ".")
+    print(f"{name.title()}'s favorite language is {language.title()}.")
