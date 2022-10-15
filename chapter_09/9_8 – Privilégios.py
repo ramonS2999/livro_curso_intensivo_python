@@ -5,8 +5,19 @@ print('''
             uma instância de Privileges como um atributo da classe Admin. Crie uma nova
             instância de Admin e use seu método para exibir os privilégios.
             
-            --- Feitos com os arquivos "9_7 – Adnin.py", "user.py" e o "privileges.py" ----
 ''')
 
+# --- Importando classe User ---
+from user import User
+from privileges import Privileges
 
+# --- criando a classe Admin ---
+class Admin(User):
+    def __init__(self, first_name, last_name, age, sexo):
+        super().__init__(first_name, last_name, age, sexo)
+        self.privileges = Privileges()
 
+# --- Criando instância de IceCreamStand ---
+admin = Admin('raimundo', 'soldado', 50, 'masculino')
+
+admin.privileges.show_privileges()

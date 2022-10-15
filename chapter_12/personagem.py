@@ -7,7 +7,7 @@ class Personagem():
             self.screen = screen
 
             """Carregar a imagem do personagem e obtém seu rect"""
-            path = "..\\livro_curso_intensivo_python\\kisspng.bmp"
+            path = ".\\kisspng.bmp"
             self.image = pygame.image.load(path)
             self.rect = self.image.get_rect()
             self.screen_rect = screen.get_rect()
