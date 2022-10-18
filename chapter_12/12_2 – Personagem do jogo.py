@@ -24,7 +24,7 @@ def window():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-        screen.fill((yellow))
+        screen.fill(yellow)
         personagem.blitme()
         pygame.display.update()
 

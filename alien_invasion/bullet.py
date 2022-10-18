@@ -6,6 +6,7 @@ class Bullet(Sprite):
 
     def __init__(self, ai_settings, screen, ship):
         """Cria um objeto para o projétil atual da espaçonave."""
+        
         super().__init__()
         self.screen = screen
         
