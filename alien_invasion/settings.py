@@ -10,7 +10,9 @@ class Settings():
         self.red = (255, 0, 0)
         self.green = (0, 255, 0)
         self.blue = (0, 0, 255)
-        self.yellow = (255, 255, 0)
+        self.yellow = (160, 160, 0)
+        self.violet = (200, 0, 200)
+        self.pink = (255, 0, 255)
 
         # Configurações da tela
         self.ship_speed_factor = 1.5
@@ -23,4 +25,4 @@ class Settings():
         self.bullet_speed_factor = 1
         self.bullet_width = 3
         self.bullet_height = 15
-        self.bullet_color = 60, 60,60
+        self.bullet_color = self.pink
