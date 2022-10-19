@@ -2,7 +2,7 @@ import pygame
 from pygame.sprite import Sprite
 
 class Bullet(Sprite):
-    """Uma classe que administra projéteis disparando pela espaçonave"""
+    """Uma classe que administra projéteis disparando pela espaçonave."""
 
     def __init__(self, ai_settings, screen, ship):
         """Cria um objeto para o projétil atual da espaçonave."""
