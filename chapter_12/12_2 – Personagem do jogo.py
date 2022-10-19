@@ -7,24 +7,20 @@ print('''
 
 import sys
 import pygame
-from personagem import Personagem
+from personagem.personagem import Personagem
 
 def window():
     pygame.init()
 
-    width = 800
-    height = 820
-    yellow = (180, 180, 0)
-
     pygame.display.set_caption("Tela Azul")
-    screen = pygame.display.set_mode((width, height))
-    personagem = Personagem(screen)
+    tela = pygame.display.set_mode((800, 820))
+    personagem = Personagem(tela)
 
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-        screen.fill(yellow)
+        tela.fill((180, 180, 0))
         personagem.blitme()
         pygame.display.update()
 

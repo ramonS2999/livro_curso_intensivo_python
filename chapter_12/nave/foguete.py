@@ -6,7 +6,7 @@ class Foguete():
         self.foguete_configuracao = foguete_configuracao
 
         # Carregar a imagem da espaçonave e obtém seu rect
-        self.caminho = ".\\alien_invasion\\images\\ship.bmp"
+        self.caminho = ".\\chapter_12\\nave\\ship.bmp"
         self.image = pygame.image.load(self.caminho)
         self.rect = self.image.get_rect()
         self.janela_rect = janela.get_rect()

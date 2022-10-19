@@ -21,7 +21,7 @@ def disparar_bala(configuracao, tela, nave, balas):
     """Dispara um projétio se o limite ainda não foi alcançado."""
     
     # Cria um novo projétil e o adiciona ao grupo de projéteis
-    if len(balas) < configuracao.bala_quantidade:
+    if len(balas) < configuracao.bala_cadencia:
         nova_bala = Bala(configuracao, tela, nave)
         balas.add(nova_bala)
 

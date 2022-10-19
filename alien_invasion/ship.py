@@ -8,8 +8,7 @@ class Ship():
         self.ai_settings = ai_settings
 
         # Carregar a imagem da espaçonave e obtém seu rect
-        self.path = ".\\alien_invasion\\images\\ship.bmp"
-        self.image = pygame.image.load(self.path)
+        self.image = pygame.image.load(".\\alien_invasion\\images\\ship.bmp")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 

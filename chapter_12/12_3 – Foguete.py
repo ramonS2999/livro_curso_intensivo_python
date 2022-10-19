@@ -5,9 +5,9 @@ print('''
             não se desloque para além de qualquer borda da tela.
 ''')
 import pygame
-from configuracao import Configuracao
-from foguete import Foguete
-import funcao_jogo
+from nave.configuracao import Configuracao
+from nave.foguete import Foguete
+import nave.funcao_jogo as funcao_jogo
 
 def run_game():
     # Inicializa o pygame, as configurações e o objeto janela

@@ -6,9 +6,11 @@ print('''
             sejam apagados quando desaparecerem da tela.
 ''')
 
+"""Importes de modolos Python."""
 import pygame
 from pygame.sprite import Group
 
+"""Importes de modolos do desenvolvedor."""
 from disparolateral.configuracao import Configuracao
 from disparolateral.navi import Navi
 import disparolateral.funcoes as funcao
@@ -16,7 +18,6 @@ import disparolateral.funcoes as funcao
 def play_game():
     # Inicializa o pygame, as configurações e o objeto tela
     pygame.init()
-
     configuracao = Configuracao() 
     pygame.display.set_caption(configuracao.tela_titulo)
     tela = pygame.display.set_mode((configuracao.tela_largura, configuracao.tela_altua))

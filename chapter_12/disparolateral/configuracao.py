@@ -19,4 +19,4 @@ class Configuracao():
         self.bala_largura = 20
         self.bala_altura = 10
         self.bala_cor = VERMELHO
-        self.bala_quantidade = 5
+        self.bala_cadencia = 5
