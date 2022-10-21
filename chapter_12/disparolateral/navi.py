@@ -8,8 +8,8 @@ class Navi():
         self.configuracao = configuracao
 
         # Carregar a imagem da espaçonave e obtém seu rect
-        self.path = ".\\chapter_12\\disparolateral\\espaconavi.bmp"
-        self.imagem = pygame.image.load(self.path)
+        self.imagem = pygame.image.load(".\\chapter_12\\disparolateral\\espaconavi.bmp")
+        self.imagem = pygame.transform.scale(self.imagem, (100, 100))
         self.retangulo_nave = self.imagem.get_rect()
         self.retangulo_tela = self.tela.get_rect()
 

@@ -1,5 +1,5 @@
 print('''
-            113.2 – Estrelas melhoradas: Você pode criar um padrão mais realista de estrelas
+            13.2 – Estrelas melhoradas: Você pode criar um padrão mais realista de estrelas
             introduzindo uma aleatoriedade ao posicionar cada estrela. Lembre-se de que
             um número aleatório pode ser obtido assim: from random import randint
             random_number = randint(-10,10) Esse código devolve um inteiro

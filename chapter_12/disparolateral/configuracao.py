@@ -10,8 +10,8 @@ class Configuracao():
         # Configuração da tela
         self.velocidade_nave = 2.2
         self.tela_titulo = "Navi Lateral"
-        self.tela_altua = 1000
-        self.tela_largura = 1560
+        self.tela_altua = 800
+        self.tela_largura = 1200
         self.tela_cor = AZUL_BEBE
 
         # Configuração dos projéteis
